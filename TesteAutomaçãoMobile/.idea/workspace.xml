@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365abd8c-74dc-494d-8312-23ff10fc8958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailBranco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailInválido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_LoginSucesso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_CriarConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TesteAutoAme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_CriarConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailBranco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_EmailInválido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteAutoAme_LoginSucesso.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +145,7 @@
       <workItem from="1580433708600" duration="61000" />
       <workItem from="1580434037614" duration="723000" />
       <workItem from="1580566451158" duration="2688000" />
+      <workItem from="1580588307829" duration="92000" />
     </task>
     <servers />
   </component>
