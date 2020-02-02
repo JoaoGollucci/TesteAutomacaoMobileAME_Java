@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="365abd8c-74dc-494d-8312-23ff10fc8958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/TesteMobile_ExportarBackup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VirtualDevice/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteMobile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="918">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -26,17 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="238">
+              <caret line="40" column="86" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_ExportarBackup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="85">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -58,8 +62,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile_ApagarConta.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/TesteMobile_ExportarBackup.java" />
       </list>
     </option>
   </component>
@@ -82,10 +88,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1UIhmFKzuVrIbm2R41RQNeoxnyf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,8 +137,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -145,7 +151,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580609228225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580668375565" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -166,30 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TesteMobile_CriarContaBásica.criarContaBasica">
-    <configuration name="TesteMobile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TesteMobile" />
-      <module name="TesteMave" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteAutoAme_EmailBranco.emailInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteAutomaçãoWeb" />
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TesteAutoAme_EmailBranco" />
-      <option name="METHOD_NAME" value="emailInvalido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TesteMobile_ExportarBackup.exportarBackup">
     <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMave" />
       <extension name="coverage">
@@ -201,6 +184,54 @@
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.TesteMobile_CriarContaBásica" />
       <option name="METHOD_NAME" value="criarContaBasica" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMobile_CriarContaCompleta.criarContaCompleta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMave" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteMobile_CriarContaCompleta" />
+      <option name="METHOD_NAME" value="criarContaCompleta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMobile_ExportarBackup.apagarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMave" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteMobile_ExportarBackup" />
+      <option name="METHOD_NAME" value="apagarConta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMobile_ExportarBackup.exportarBackup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMave" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.TesteMobile_ExportarBackup" />
+      <option name="METHOD_NAME" value="exportarBackup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,29 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteMobile.criarConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteMave" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.TesteMobile" />
-      <option name="METHOD_NAME" value="criarConta" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesteMobile_ExportarBackup.exportarBackup" />
         <item itemvalue="JUnit.TesteMobile_CriarContaBásica.criarContaBasica" />
+        <item itemvalue="JUnit.TesteMobile_ExportarBackup.apagarConta" />
+        <item itemvalue="JUnit.TesteMobile_CriarContaCompleta.criarContaCompleta" />
         <item itemvalue="JUnit.TesteMobile.calcTeste" />
-        <item itemvalue="Application.TesteMobile" />
-        <item itemvalue="JUnit.TesteMobile.criarConta" />
-        <item itemvalue="JUnit.TesteAutoAme_EmailBranco.emailInvalido" />
       </list>
     </recent_temporary>
   </component>
@@ -279,35 +294,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 35m 34s.xml">
+    <history-entry file="TesteMobile_CriarContaCompleta_criarContaCompleta - 2020.02.02 at 15h 54m 55s.xml">
+      <configuration name="TesteMobile_CriarContaCompleta.criarContaCompleta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.02 at 16h 12m 08s.xml">
       <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 43m 19s.xml">
+    <history-entry file="TesteMobile_ApagarConta_apagarConta - 2020.02.02 at 16h 14m 06s.xml">
+      <configuration name="TesteMobile_ApagarConta.apagarConta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.02 at 16h 16m 31s.xml">
       <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 49m 43s.xml">
+    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.02 at 16h 17m 34s.xml">
       <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 51m 47s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
+    <history-entry file="TesteMobile_ApagarConta_exportarBackup - 2020.02.02 at 16h 26m 05s.xml">
+      <configuration name="TesteMobile_ApagarConta.exportarBackup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 54m 07s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
+    <history-entry file="TesteMobile_ApagarConta_exportarBackup - 2020.02.02 at 16h 27m 01s.xml">
+      <configuration name="TesteMobile_ApagarConta.exportarBackup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 20h 57m 02s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
+    <history-entry file="TesteMobile_ApagarConta_exportarBackup - 2020.02.02 at 16h 28m 22s.xml">
+      <configuration name="TesteMobile_ApagarConta.exportarBackup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 21h 00m 01s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
+    <history-entry file="TesteMobile_ApagarConta_exportarBackup - 2020.02.02 at 16h 29m 57s.xml">
+      <configuration name="TesteMobile_ApagarConta.exportarBackup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 21h 02m 40s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 21h 04m 26s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteMobile_CriarContaBásica_criarContaBasica - 2020.02.01 at 21h 08m 12s.xml">
-      <configuration name="TesteMobile_CriarContaBásica.criarContaBasica" configurationId="JUnit" />
+    <history-entry file="TesteMobile_ApagarConta_exportarBackup - 2020.02.02 at 16h 31m 10s.xml">
+      <configuration name="TesteMobile_ApagarConta.exportarBackup" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -320,10 +335,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.14447807" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.10341151" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37806875" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36619717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +355,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,17 +430,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="918">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaCompleta.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_CriarContaBásica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="238">
+          <caret line="40" column="86" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/TesteMobile_ExportarBackup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
