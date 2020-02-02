@@ -44,6 +44,8 @@ public class TesteMobile_CriarContaCompleta {
         MobileElement el2 = (MobileElement) ad.findElementById("br.com.dudstecnologia.cadastrodeclientes:id/floating_novo");
         el2.click();
 
+        //Inserir seleção do radio button
+
         //Preencher Campos
         MobileElement el3 = (MobileElement) ad.findElementById("br.com.dudstecnologia.cadastrodeclientes:id/editNome");
         el3.sendKeys("Nome Teste");
@@ -74,6 +76,9 @@ public class TesteMobile_CriarContaCompleta {
         el12.click();
         MobileElement el13 = (MobileElement) ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el13.click();
+
+        //Scrollar tela
+        //Preencher endereço
 
         //Escolher Foto
         MobileElement el14 = (MobileElement) ad.findElementById("br.com.dudstecnologia.cadastrodeclientes:id/imagemCliente");
